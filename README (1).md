@@ -1,4 +1,4 @@
-# 🎯 Number Guessing Game (Python)
+#  Number Guessing Game (Python)
 
 A simple and interactive command-line **Number Guessing Game** built
 using Python fundamentals.\
@@ -9,7 +9,7 @@ guessed.
 
 ------------------------------------------------------------------------
 
-## 🧠 Features
+##  Features
 
 -   Generates a random number between 1 and 100\
 -   Gives feedback on whether your guess is **too high** or **too low**\
@@ -20,7 +20,7 @@ guessed.
 
 ------------------------------------------------------------------------
 
-## 💻 How to Run
+##  How to Run
 
 1.  **Clone this repository:**
 
@@ -44,7 +44,7 @@ guessed.
 
 ------------------------------------------------------------------------
 
-## 🧩 Example Gameplay
+##  Example Gameplay
 
     Welcome to the Number Guessing Game!
     I'm thinking of a number between 1 and 100. Can you guess it?
@@ -57,7 +57,7 @@ guessed.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Code Overview
+##  Code Overview
 
 The game logic is implemented in the function `random_number_guess()`:
 
@@ -70,27 +70,3 @@ The game logic is implemented in the function `random_number_guess()`:
 if __name__ == "__main__":
     random_number_guess()
 ```
-
-This ensures the game runs when executed directly from the terminal.
-
-------------------------------------------------------------------------
-
-## 🧾 Requirements
-
--   Python 3.x\
--   No external libraries needed
-
-------------------------------------------------------------------------
-
-## 🚀 Future Enhancements
-
--   Add difficulty levels (Easy, Medium, Hard)\
--   Include a replay option\
--   Store game statistics (best score, average attempts, etc.)
-
-------------------------------------------------------------------------
-
-## 📄 License
-
-This project is open-source and available under the [MIT
-License](LICENSE).
